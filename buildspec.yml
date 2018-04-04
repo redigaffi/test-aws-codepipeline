@@ -16,7 +16,7 @@ phases:
           composer install
 artifacts:
   files:
-    - /
+    - build*/**
 
   discard-paths: yes
  
