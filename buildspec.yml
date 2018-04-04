@@ -6,7 +6,8 @@ phases:
       - echo Downloading and installing Composer...
       - php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
       - php composer-setup.php
-      - mv composer.php /usr/local/bin/composer
+      - rm composer-setup.php
+      - mv composer.phar /usr/local/bin/composer
   build:
     commands:
       - echo Downloading Projects Dependencies...
