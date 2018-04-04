@@ -1,0 +1,12 @@
+{
+    "name": "jordi/test-aws-codepipeline",
+    "authors": [
+        {
+            "name": "Jordi Walter Hoock Castro",
+            "email": "jordixboy@gmail.com"
+        }
+    ],
+    "require": {
+        "willotter/funny-jokes": "^0.2.1"
+    }
+}
