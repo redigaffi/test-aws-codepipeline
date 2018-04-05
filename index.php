@@ -2,5 +2,8 @@
 <img src="aws.png" />
 
 <?php
-  echo 'Testing php';
+require 'vendor/autoload.php';
+use Joker\MakeAJoke;
+$joker = new MakeAJoke();
+echo $joker->tellMeARandomJoke(false, "Bill", "Gates") . "\n";
 ?>
