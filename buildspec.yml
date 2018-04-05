@@ -18,5 +18,5 @@ artifacts:
   files:
     - '**/*'
 
-  discard-paths: yes
+  discard-paths: no # remember to test this the same would be remove the line
  
