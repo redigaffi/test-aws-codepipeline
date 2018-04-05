@@ -16,6 +16,7 @@ class StackTest extends TestCase
 
         $this->assertEquals('foo', array_pop($stack));
         $this->assertEquals(0, count($stack));
+        $this->assertTrue(false);
     }
 }
 ?>
