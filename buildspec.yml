@@ -5,6 +5,7 @@ phases:
     commands:
       - |
           echo Downloading and installing Composer...
+          apt-get update
           apt-get install -y git
           php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
           php composer-setup.php
